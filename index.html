@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="Final Dice Roller.css"> </link>
+</head>
+
+<body>
+    
+
+    <h1>Dice Roller</h1>
+        <hr>
+
+    <form >
+
+        <input type="radio" id="twoside" name="sides">
+        <label for="twoside">Coin</label>
+        <br>
+
+        <input type="radio" id="fourside" name="sides">
+        <label for="fourside">4 Sided Dice</label>
+        <br>
+
+        <input type="radio" id="sixside" name="sides">
+        <label for="sixside">6 Sided Dice</label>
+        <br>
+
+        <input type="radio" id="eightside" name="sides">
+        <label for="eightside">8 Sided Dice</label>
+        <br>
+
+        <input type="radio" id="twelveside" name="sides">
+        <label for="twelveside">12 Sided Dice</label>
+        <br>
+
+
+        <input type="radio" id="twentyside" name="sides">
+        <label for="twentyside">12 Sided Dice</label>
+        <br>
+
+
+        <input type="radio" id="hundredside" name="sides">
+        <label for="hundredside">100 Sided Dice</label>
+        <br>
+
+    </form>
+    <div id="container">
+      
+        <label >Number of Dice: </label>
+
+        <input type="number" value="1" min="1" id="dicenum">
+
+        <button onclick="rolldice()">Roll Dice</button>
+
+        <div id="rollresult"></div>
+
+    </div>
+    
+    
+    <script src="Final Dice Roller.js"></script>
+
+</body>
+</html>
